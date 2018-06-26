@@ -2,10 +2,10 @@
 ##Hex to file (binary) converter . 
 
 ### Hex file  with comments 
-![hex](/hex.png?raw=true)
+![hex](/hex.PNG?raw=true)
 
 ### convert file 
-![prog](/prog.png?raw=true)
+![prog](/prog.PNG?raw=true)
 
 ### result  binary file 
-![binary](/binary.png?raw=true)
+![binary](/binary.PNG?raw=true)
