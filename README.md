@@ -1,4 +1,5 @@
-# Cons-Bin-Matrix
+# HexToByte
+##Hex to file (binary) converter . 
 
 ### Hex file  with comments 
 ![Screenshot](/hex.png?raw=true)
