@@ -20,14 +20,10 @@ func main() {
 
 	argsWithProg := os.Args
 
-	if len(argsWithProg) > 2 {
-		fmt.Println("argument count >1 exeptions !")
-		os.Exit(4)
-	} else if len(argsWithProg) == 0 {
-		fmt.Println("argument count = 0 exeptions !")
-		os.Exit(4)
-	} else if len(argsWithProg) < 2 {
-		fmt.Println("argument count < 2 exeptions !")
+	if len(argsWithProg) == 2 {
+
+	} else {
+		fmt.Println("argument count exeptions !")
 		os.Exit(4)
 	}
 
@@ -37,7 +33,9 @@ func main() {
 		os.Exit(3)
 	}
 
-	str := string(b) // convert content to a 'string'
+	rawStr := string(b) // convert content to a 'string'
+
+	str := strings.ToUpper(rawStr)
 
 	re := regexp.MustCompile(`\r?\n`)
 	str2 := re.ReplaceAllString(str, "")
